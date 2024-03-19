@@ -1,0 +1,39 @@
+body{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    font-family: "Poppins",sans-serif;
+
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 30%;
+  }
+
+  .col-3{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    top: 10%;
+  }
+
+  .col-9{
+    position: relative;
+    top: 3%;
+  }
+
+
+
+.container{
+    width: 700px !important;
+    height: 200px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+  }
